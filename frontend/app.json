@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "frontend",
+    "slug": "frontend",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/PCLOGO.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff",
+      "fadeOutDuration": 3000
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.PromoConnect.UserPromoter",
+      "config": {
+        "cleartext": {
+          "config": {
+            "include": ["mithun.com"]
+          }
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "promoconnect-681c6.web.app",
+    "extra": {
+      "expo": {
+        "scheme": "exp://localhost:19000"
+      },
+      "eas": {
+        "projectId": "d6152049-5b65-479a-8891-e3fec072f619"
+      }
+    },
+    "plugins": [
+      "expo-secure-store"
+    ]
+  }
+}
